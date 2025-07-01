@@ -52,17 +52,22 @@ A estrutura do projeto segue o padrão modular com separação por responsabilid
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/tere-verde-api.git
+git clone https://github.com/Michaelreisrodrigues/mvp-back-end.git
 cd tere-verde-api
 
 Crie e ative um ambiente virtual
 
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
 
 Instale as dependências : pip install -r requirements.txt
 
 Execute a aplicação: uvicorn app.main:app --reload
+
+Acesse a documentação interativa da API:
+ http://localhost:8000/docs
 
 
 
