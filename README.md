@@ -43,7 +43,31 @@ Este projeto visa apoiar ações reais ou simuladas de preservação, turismo ec
 
 ## 🧱 Arquitetura
 
-A estrutura do projeto segue o padrão modular com separação por responsabilidade:
+A organização do projeto segue uma estrutura modular, separando responsabilidades de forma clara para facilitar a manutenção, escalabilidade e testes. Abaixo, uma visão geral dos diretórios e arquivos principais:
+
+📦 app/
+├── 📁 auth/           # Lógica de autenticação (JWT, verificação de senha, login)
+│   └── auth.py
+│
+├── 📁 models/         # Contém os modelos do banco de dados (SQLAlchemy)
+│   └── administrador.py
+│
+├── 📁 routers/        # Define as rotas da aplicação (FastAPI Routers)
+│   └── login.py
+│   └── administrador.py
+│
+├── 📁 schemas/        # Esquemas Pydantic usados para validação e contratos de entrada/saída
+│   └── administrador.py
+│
+├── 📁 services/       # Lógica adicional de negócio.
+│   └── parque.py
+│
+├── __init__.py        # Torna a pasta um pacote Python
+├── create_db.py       # Script opcional para criação do banco (caso necessário)
+├── database.py        # Conexão com o banco de dados (Session e engine)
+├── main.py            # Arquivo principal da aplicação FastAPI
+├── seed.py            # Script para popular o banco com dados iniciais
+
 
 
 
