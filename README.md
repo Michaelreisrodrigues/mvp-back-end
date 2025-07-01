@@ -1,19 +1,51 @@
 # 🌱 API Tere Verde
 
-Sistema de backend RESTful com autenticação JWT para a plataforma Tere Verde, voltado para gerenciamento de usuários administradores, autenticação segura e controle de recursos protegidos.
+Sistema de backend desenvolvido com FastAPI para gerenciamento de trilhas, parques, biodiversidade e ações ambientais na cidade de Teresópolis. Projeto acadêmico do curso de Análise e Desenvolvimento de Sistemas – UNIFESO.
 
 ---
 
-## ✅ Tecnologias Utilizadas
+## 📌 Índice
 
-- **FastAPI** – Framework web moderno e rápido
-- **SQLAlchemy** – ORM para banco de dados relacional
-- **JWT (via jose)** – Autenticação baseada em token
-- **passlib[bcrypt]** – Hash seguro de senhas
-- **SQLite** (ou PostgreSQL, se configurado)
-- **Uvicorn** – Servidor ASGI para execução
+- [📖 Sobre o Projeto](#📖-sobre-o-projeto)
+- [🚀 Tecnologias Utilizadas](#🚀-tecnologias-utilizadas)
+- [🧱 Arquitetura](#🧱-arquitetura)
+- [🔐 Autenticação](#🔐-autenticação)
+- [📦 Instalação e Execução](#📦-instalação-e-execução)
+- [📬 Rotas da API](#📬-rotas-da-api)
+- [🛠️ Próximos Passos](#🛠️-próximos-passos)
+- [📄 Licença](#📄-licença)
 
 ---
+
+## 📖 Sobre o Projeto
+
+A **API Tere Verde** tem como objetivo principal promover o controle e gestão de dados ambientais de forma eficiente e segura. A aplicação centraliza o cadastro e controle de:
+
+- Administradores (com login seguro via token JWT)
+- Trilhas e parques
+- Biodiversidade local (ex: animais catalogados)
+- Eventos ambientais e ações sustentáveis
+
+Este projeto visa apoiar ações reais ou simuladas de preservação, turismo ecológico e coleta seletiva.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- 💡 **[FastAPI]** – Framework Web moderno em Python
+- 🐘 **SQLite** 
+- 🧠 **SQLAlchemy** – ORM para manipulação de dados
+- 🛡️ **JWT Auth** – Segurança com tokens
+- 🧪 **Swagger** – Documentação interativa automática
+- 📬 **Postman** – Testes de integração da API
+
+---
+
+## 🧱 Arquitetura
+
+A estrutura do projeto segue o padrão modular com separação por responsabilidade:
+
+
 
 ## 🚀 Como Executar o Projeto
 
