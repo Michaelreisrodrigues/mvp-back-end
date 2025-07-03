@@ -126,7 +126,7 @@ RNF04: Documentação automática via Swagger da FastAPI.
 RNF05: Deploy opcional (ex.: Render, Railway, etc.).
 
 
-📜 Regras de Negócio (RN)
+# 📜 Regras de Negócio (RN)
 RN01: Eventos não podem ser cadastrados com data no passado.
 
 RN02: Trilhas devem estar associadas obrigatoriamente a um parque.
