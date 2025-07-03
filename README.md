@@ -115,6 +115,7 @@ RF11: Administrador pode cadastrar, editar e remover eventos.
 RF12: Administrador pode cadastrar, editar e remover espécies da biodiversidade.
 
 ✅ Requisitos Não Funcionais (RNF)
+
 RNF01: A API deve ser desenvolvida em Python com FastAPI.
 
 RNF02: O banco de dados deve ser SQLite (simples) ou PostgreSQL (opcional).
