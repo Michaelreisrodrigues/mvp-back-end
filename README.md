@@ -87,6 +87,59 @@ A organização do projeto segue uma estrutura modular, separando responsabilida
 
 
 
+# REQUISITOS
+
+✅ Requisitos Funcionais (RF)
+RF01: Listar parques.
+
+RF02: Visualizar detalhes de um parque (descrição, localização...).
+
+RF03: Listar trilhas de um parque.
+
+RF04: Visualizar detalhes de uma trilha (nível de dificuldade, distância, tempo estimado, descrição...).
+
+RF05: Listar eventos.
+
+RF06: Visualizar detalhes de um evento (data, local, descrição).
+
+RF07: Listar espécies da biodiversidade (fauna e flora).
+
+RF08: Login de administrador.
+
+RF09: Administrador pode cadastrar, editar e remover parques.
+
+RF10: Administrador pode cadastrar, editar e remover trilhas.
+
+RF11: Administrador pode cadastrar, editar e remover eventos.
+
+RF12: Administrador pode cadastrar, editar e remover espécies da biodiversidade.
+
+✅ Requisitos Não Funcionais (RNF)
+RNF01: A API deve ser desenvolvida em Python com FastAPI.
+
+RNF02: O banco de dados deve ser SQLite (simples) ou PostgreSQL (opcional).
+
+RNF03: A API deve ter autenticação via JWT para administrador.
+
+RNF04: Documentação automática via Swagger da FastAPI.
+
+RNF05: Deploy opcional (ex.: Render, Railway, etc.).
+
+
+📜 Regras de Negócio (RN)
+RN01: Eventos não podem ser cadastrados com data no passado.
+
+RN02: Trilhas devem estar associadas obrigatoriamente a um parque.
+
+RN03: O nível de dificuldade das trilhas deve ser entre: Fácil, Moderado ou Difícil.
+
+RN04: Visitantes não podem cadastrar, editar ou excluir nenhum dado, apenas visualizar.
+
+RN05: O administrador precisa estar autenticado para acessar os endpoints de manutenção (CRUD).
+
+
+
+
 
 ## 🚀 Como Executar o Projeto
 
