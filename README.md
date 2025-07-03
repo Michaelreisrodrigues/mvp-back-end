@@ -158,6 +158,7 @@ venv\Scripts\activate     # Windows
 
 
 Instale as dependências : pip install -r requirements.txt
+pip install fastapi uvicorn[standard] pydantic[email] python-jose passlib[bcrypt] sqlalchemy python-multipart
 
 Execute a aplicação: uvicorn app.main:app --reload
 
