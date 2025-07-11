@@ -14,4 +14,4 @@ class Biodiversidade(BiodiversidadeBase):
     id: int
 
     class Config:
-        from_attributes = True  # ✅ Corrigir aqui para funcionar com FastAPI 0.95+
+        from_attributes = True  

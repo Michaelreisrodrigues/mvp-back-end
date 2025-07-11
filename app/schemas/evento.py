@@ -14,4 +14,4 @@ class Evento(EventoBase):
     id: int
 
     class Config:
-        from_attributes = True  # Para funcionar com ORM (Pydantic v2)
+        from_attributes = True 

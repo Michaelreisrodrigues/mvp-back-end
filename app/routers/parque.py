@@ -6,8 +6,8 @@ from app.schemas import Parque, ParqueCreate
 from app.auth import verificar_token
 
 
-# Presumo que você tenha uma função para verificar token
-from app.auth import verificar_token  # ajuste o caminho se necessário
+
+from app.auth import verificar_token 
 
 router = APIRouter(
     prefix="/parques",
